@@ -1,4 +1,5 @@
 module.exports = {
-  coverageDirectory: "coverages",
-  testEnvironment: "node"
+  preset: 'ts-jest',
+  coverageDirectory: 'coverages',
+  testEnvironment: 'node',
 };

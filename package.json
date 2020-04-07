@@ -6,6 +6,8 @@
   "scripts": {
     "lint": "eslint **/*.js --fix",
     "test": "jest",
+    "test:watch": "jest --watch --verbose",
+    "test:coverage": "jest --coverage",
   },
   "repository": {
     "type": "git",
@@ -21,12 +23,14 @@
   },
   "homepage": "https://github.com/lantrix/typescript-base#readme",
   "devDependencies": {
+    "@types/jest": "^25.2.1",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "eslint": "^6.8.0",
     "eslint-config-seek": "^6.0.2",
     "jest": "^25.2.7",
     "prettier": "2.0.4",
+    "ts-jest": "^25.3.1",
     "tsconfig-seek": "^1.0.2",
     "typescript": "^3.8.3"
   }
