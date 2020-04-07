@@ -1,0 +1,22 @@
+{
+  "name": "typescript-base",
+  "version": "1.0.0",
+  "description": "Base typescript repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lantrix/typescript-base.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Lantrix <lantrix@pobox.com>",
+  "license": "LicenseRef-LICENSE",
+  "bugs": {
+    "url": "https://github.com/lantrix/typescript-base/issues"
+  },
+  "homepage": "https://github.com/lantrix/typescript-base#readme"
+}
