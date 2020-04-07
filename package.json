@@ -4,7 +4,8 @@
   "description": "Base typescript repo",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "lint": "eslint **/*.js --fix",
+    "test": "jest",
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/lantrix/typescript-base#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "eslint": "^6.8.0",
     "eslint-config-seek": "^6.0.2",
     "jest": "^25.2.7",
