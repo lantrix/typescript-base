@@ -6,6 +6,7 @@
   "compilerOptions": {
     // Override certain options on a project-by-project basis.
     "module": "es2015",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "moduleResolution": "node"
   }
 }
