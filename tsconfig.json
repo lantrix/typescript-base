@@ -5,6 +5,7 @@
   ],
   "compilerOptions": {
     // Override certain options on a project-by-project basis.
-    "module": "es2015"
+    "module": "es2015",
+    "outDir": "./dist"
   }
 }
