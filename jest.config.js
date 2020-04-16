@@ -4,8 +4,9 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest',
+    '.(ts|tsx)': 'ts-jest',
   },
+  moduleFileExtensions: ['ts', 'tsx', 'js'],
   coverageThreshold: {
     global: {
       branches: 80,
